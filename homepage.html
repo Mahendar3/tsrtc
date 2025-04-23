@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #Header {
+            background-color: lightblue;
+            color:black;
+            text-align: center;
+            padding: 30px;
+            font-size: 10px;    
+            border-radius: 10px;
+            
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <header id="Header">
+    <img src="https://image3.mouthshut.com/images/imagesp/925825095s.jpg" alt="" width="100" height="100">
+                    <h1>TELANGANA STATE ROAD TRANSPORT CORPORATION</h1>
+                    <h2>GENERAL BUS PASS APPLICATION</h2><br><br>
+                    </header>
+    </center>
+    <form>
+                    <fieldset style="background-color: bisque;"  width="10" height="10">
+            
+                  <legend>APPLICANT DETAILS</legend>
+                  <center>
+                    <label for="name">NAME:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="text" id="name" name="name">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <label for="father name">Father name:</label>
+                    <input type="text" id="father name" name="father name"><br><br>
+                   <label for="Date of birth">Data of birth:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="date" id="Date of birth" name="Date of birth">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <label for="Gender">Gender:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input  type="radio" name="gender" value="male">male&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="gender" value="female">female<br><br>
+                    <label for="age">Age:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="number" id="age" name="age">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <label for="Aadhar No">Aadhar No:</label>&nbsp;&nbsp;&nbsp;
+                    <input type="tel" id="Aadhar No" name="Aadhar No"><br><br>
+                    <label for="Mobile No">Mobile No:</label>
+                    <input type="tel" id="Mobile No" name="Mobile No">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <label for="email">Email:</label>&nbsp;
+                    <input type="email" id="email" name="email"><br><br>
+                    <label for="Photo">Photo</label>
+                    <input type="file" id="Photo" name="Photo">
+                  </center>
+                </fieldset>
+                    <fieldset style="background-color: antiquewhite;">
+                    <legend>RESIDENTIAL ADDRESS DETAILS</legend>
+                    <center>
+                    <label for="address">Applicant Address</label>
+                    <textarea name="address" id=""></textarea><br><br>
+                    <label for="House No">House No:</label>
+                    <input type="text" id="House No" name="House No">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <label for="Street">Street:</label>&nbsp;&nbsp;&nbsp;
+                    <input type="text" id="Street" name="Street"><br><br>
+                    <label for="Village">Village:</label>&nbsp;&nbsp;&nbsp;
+                    <input type="text" id="Village" name="Village">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <label for="Mandal">Mandal:</label>&nbsp;&nbsp;
+                    <input type="text" id="Mandal" name="Mandal"><br><br>
+                    <label for="District">District:</label>&nbsp;&nbsp;&nbsp;
+                    <input type="text" id="District" name="District">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <label for="State">State:</label>&nbsp;&nbsp;&nbsp;
+                    <input type="text" id="State" name="State"><br><br>
+                    <label for="Pin code">Pin code:</label>&nbsp;
+                    <input type="text" id="Pin code" name="Pin code"><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </center>
+                    </fieldset>
+        <fieldset style="background-color: bisque;">
+             <legend>PASS TYPE DETAILS </legend>
+            <center>
+             <label for="dropdown">city*</label>
+               <select id="dropdown" name="dropdown">
+               <option value="Hyderabad">Hyderabad</option>
+                <option value="Warangal">Warangal</option>
+                <option value="Khammam">Khammam</option>
+                <option value="Nalgonda">Nalgonda</option>
+                <option value="Mahabubnagar">Mahabubnagar</option>
+                <option value="Rangareddy">Rangareddy</option> <br><br>
+                </select><br><br>
+                <label for="dropdown" style="background-color: antiquewhite;" >passtype*</label>
+                 <select id="dropdown" name="dropdown">
+                    <option value="buspass">bus pass</option>
+                    <option value="trainpass">train pass</option>
+                    <option value="metropass">metro pass</option>
+                    <option value="metro express pass">metro express pass</option>
+                    </select>
+                    </center>
+        </fieldset>
+        <fieldset style="background-color: bisque;">
+            <legend>METHOD OF PAYMENT&PASS COLLECTION</legend>
+            <center>
+            <label for="dropdown">payment*</label>
+               <select id="dropdown" name="dropdown">
+               <option value="online">online</option>
+                <option value="offline">offline</option>
+                </select>
+                <label for="dropdown">pass collection*</label>
+                 <select id="dropdown" name="dropdown">
+                    <option value="home delivery">home delivery</option>
+                    <option value="self pickup">self pickup</option>
+                    </select><br><br>
+                    <label for="dropdown" >Center at which you want to Collect Pass *</label>
+                    <select id="dropdown" name="dropdown" palceholder="select" required>
+                    <option value="rtc stop at kphb">rtc stop at kphb</option>
+                    <option value="rtc stop at bhel">rtc stop at bhel</option>
+                    <option value="rtc stop at madhapur">rtc stop at madhapur</option>
+                    <option value="rtc stop at ammerpet">rtc stop at ammerpet</option>
+                    <option value="rtc stop at sr nagar">rtc stop at sr nagar</option>
+                    <option value="rtc stop at kukatpalli">rtc stop at kukatpalli</option>
+                    <option value="rtc stop at mgbs">rtc stop at mgbs</option>
+                    <option value="rtc stop at jubli hills">rtc stop at jubli hills</option>
+                    <option value="rtc stop at esi">rtc stop at esi</option>
+                    <option value="rtc stop at lb nagar">rtc stop at lb nagar</option>
+                    </select><br><br>
+            </center>
+        </fieldset>
+                   <center> <input type="submit" value="Submit" style="background-color: lightblue; color: black; font-size: 20px; padding: 10px 20px; border: none; border-radius: 5px;"></center>
+
+    </form>
+</body>
+</html>
